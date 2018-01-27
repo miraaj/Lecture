@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<collection>
+	<book>
+		<title edition="5">this is demo</title>
+		<name>xml</name>
+		<author>John</author>
+	</book>
+	<book>
+		<title edition="15">this is demo1</title>
+		<name>php</name>
+		<author>Tek Raj</author>
+	</book>
+</collection>

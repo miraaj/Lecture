@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<detail xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="age.xsd">
+ <personaldetail>
+  <name>hari</name>
+  <age>19</age> 
+ </personaldetail>
+</detail>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="http://localhost:82/lecture/xml/template-apply/product.php"?>
+<productdata>
+	<product>
+		<prodid id="P001"></prodid>
+		<productname>Barbie doll</productname>
+		<description>this is toy for children</description>
+		<price>240.00</price>
+		<quantity>12</quantity>
+	</product>
+	<product>
+		<prodid id="P002"></prodid>
+		<productname>Web Technology</productname>
+		<description>this is book for csit 6 sem</description>
+		<price>940.00</price>
+		<quantity>10</quantity>
+	</product>
+	<product>
+		<prodid id="P003"></prodid>
+		<productname>CASIO Watch</productname>
+		<description>this is a watch giving multiple country time</description>
+		<price>1240.00</price>
+		<quantity>6</quantity>
+	</product>
+
+</productdata>

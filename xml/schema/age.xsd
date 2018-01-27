@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+<xs:element name="detail">
+ <xs:complexType> 
+  <xs:sequence>
+   <xs:element name="personaldetail">
+    <xs:complexType>
+     <xs:sequence>
+     <xs:element name="name" type="lower_case"/>
+     <xs:element name="age" type="limitage"/>
+     </xs:sequence>
+    </xs:complexType>
+   </xs:element>
+  </xs:sequence>
+ </xs:complexType>
+</xs:element>
+<xs:simpleType name="limitage">
+  <xs:restriction base="xs:integer">
+    <xs:minInclusive  value="18"/>
+    <xs:maxInclusive value="55"/>
+  </xs:restriction>
+</xs:simpleType>
+<xs:simpleType name="lower_case">
+  <xs:restriction base="xs:string">
+    <xs:pattern value="[a-z]*"/>
+  </xs:restriction>
+</xs:simpleType>
+</xs:schema>
