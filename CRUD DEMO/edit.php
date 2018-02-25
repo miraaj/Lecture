@@ -4,8 +4,9 @@
 		$name =  $_POST['name'];
 		$email =  $_POST['email'];
 		$contact =  $_POST['contact'];
+		$id = $_POST['id'];
 
-		$sql="UPDATE `details` SET `name` = '$name', `email` = '$email', `contact` = '$contact'";
+		$sql="UPDATE `details` SET `name` = '$name', `email` = '$email', `contact` = '$contact' where id = $id";
 
 		$isSuccess  = mysqli_query($con, $sql);
 
@@ -90,6 +91,7 @@
 
 <form method="POST" action="edit.php">
 		  <div class="form-group">
+		  	<input type="hidden" name="id" value="<?=$id?>">
 		    <label for="name">Name</label>
 		    <input type="text" name="name" class="form-control" id="name" placeholder="Name" value="<?=$row['name']?>">
 		  </div>
